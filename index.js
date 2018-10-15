@@ -57,4 +57,11 @@ newkittens.splice(0, 0, 'Arnold');
  return newkittens;
 }
 
+var kittens = ["Milo", "Otis", "Garfield"];
+function prependKitten() {
+const newkittens = ['Arnold',...kittens];
 
+return newkittens;
+
+
+}
