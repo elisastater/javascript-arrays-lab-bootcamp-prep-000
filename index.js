@@ -48,14 +48,6 @@ function removeFirstKitten() {
  console.log(newkittens);
  return newkittens;
 }
-var kittens = ["Milo", "Otis", "Garfield"];
-function prependKitten() {
-var newkittens = (kittens);
-newkittens.splice(0, 0, 'Arnold');
-
- console.log(newkittens.slice(1,4));
- return newkittens;
-}
 
 var kittens = ["Milo", "Otis", "Garfield"];
 function prependKitten() {
